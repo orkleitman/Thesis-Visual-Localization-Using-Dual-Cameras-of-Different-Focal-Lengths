@@ -7,6 +7,7 @@
 
 ## 📂 מבנה התיקיות
 
+```plaintext
 Thesis-Visual-Localization/
 ├── code/                               # קוד מקור
 │   └── motion_estimation/
