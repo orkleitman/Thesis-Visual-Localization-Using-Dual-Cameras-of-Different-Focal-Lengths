@@ -1,0 +1,57 @@
+MASTER ANALYSIS SUMMARY
+==============================
+
+Date: 2025-09-02 13:53:31
+Total datasets: 10
+
+Dataset 01: Left_0-5-10-15_cm
+  Expected: left_motion
+  Detected: left_motion (+4.4cm)
+  Match: YES
+
+Dataset 02: Forward_0-5-10-15_cm
+  Expected: forward_motion
+  Detected: forward_motion (-5.0cm)
+  Match: YES
+
+Dataset 03: Counterclockwise_0-10-20-30_degrees
+  Expected: y_rotation
+  Detected: y_rotation (+10.0°)
+  Match: YES
+
+Dataset 04: Right_0-5-10-15_cm
+  Expected: right_motion
+  Detected: right_motion (-4.4cm)
+  Match: YES
+
+Dataset 05: Back_0-5-10-15_cm
+  Expected: backward_motion
+  Detected: backward_motion (+3.8cm)
+  Match: YES
+
+Dataset 06: clockwise_0-10-20-30_degrees
+  Expected: y_rotation
+  Detected: y_rotation (-11.0°)
+  Match: YES
+
+Dataset 07: Pitch_Clockwise_0-10-20-30_degrees
+  Expected: x_rotation
+  Detected: x_rotation (+11.0°)
+  Match: YES
+
+Dataset 08: Upward_0-5-10-15_cm
+  Expected: up_motion
+  Detected: up_motion (+5.4cm)
+  Match: YES
+
+Dataset 09: Downward_0-5-10-15_cm
+  Expected: down_motion
+  Detected: down_motion (-6.1cm)
+  Match: YES
+
+Dataset 10: Roll_Clockwise_0-10-20-30_degrees
+  Expected: z_rotation
+  Detected: z_rotation (-10.0°)
+  Match: YES
+
+Success rate: 10/10 (100.0%)

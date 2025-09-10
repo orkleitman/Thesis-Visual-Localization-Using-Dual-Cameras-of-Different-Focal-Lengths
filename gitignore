@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large experiment outputs (keep reports/images, ignore raw arrays)
+results/**/*.npy
+results/**/*.npz
+results/**/*.csv

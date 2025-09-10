@@ -1,0 +1,86 @@
+MOTION ANALYSIS REPORT
+==================================================
+
+Dataset: Counterclockwise_0-10-20-30_degrees
+Analysis Date: 2025-09-02 11:19:25
+Method: Multi-start gradient descent with SIFT features
+
+CAMERA PARAMETERS:
+Wide Camera: fx=723.35, fy=718.10
+Ultra Camera: fx=393.14, fy=390.52
+Baseline: 1.93cm
+
+SIFT CONFIGURATION:
+Max features: 20,000
+Contrast threshold: 0.02
+Edge threshold: 8
+RANSAC threshold: 0.8 pixels
+Epipolar threshold: 2.0 pixels
+
+FRAME PAIR RESULTS:
+------------------------------
+
+F1→F2:
+  FEATURE MATCHING:
+    Temporal (Wide F1→F2): 172 matches
+    Stereo F1 (Wide↔Ultra): 57 matches
+    Stereo F2 (Wide↔Ultra): 64 matches
+    Final correspondences: 20
+    Survival rate: 11.6% (20/172)
+  MOTION ESTIMATION:
+  Status: SUCCESS
+  Reprojection Error: 0.8762 pixels
+  Best starting point: #33/120
+  Rotation (deg): α= +0.001, β=+10.999, γ= +0.000
+  Translation (cm): X=  -0.22, Y=  -0.26, Z=  -1.81
+  Quality: EXCELLENT
+    Convergence: 118 iterations
+
+F2→F3:
+  FEATURE MATCHING:
+    Temporal (Wide F1→F2): 159 matches
+    Stereo F1 (Wide↔Ultra): 64 matches
+    Stereo F2 (Wide↔Ultra): 85 matches
+    Final correspondences: 17
+    Survival rate: 10.7% (17/159)
+  MOTION ESTIMATION:
+  Status: SUCCESS
+  Reprojection Error: 0.6910 pixels
+  Best starting point: #30/120
+  Rotation (deg): α= -0.000, β=+10.000, γ= -0.000
+  Translation (cm): X=  +0.79, Y=  -0.02, Z=  -0.13
+  Quality: EXCELLENT
+    Convergence: 51 iterations
+
+F3→F4:
+  FEATURE MATCHING:
+    Temporal (Wide F1→F2): 308 matches
+    Stereo F1 (Wide↔Ultra): 85 matches
+    Stereo F2 (Wide↔Ultra): 92 matches
+    Final correspondences: 16
+    Survival rate: 5.2% (16/308)
+  MOTION ESTIMATION:
+  Status: SUCCESS
+  Reprojection Error: 0.8841 pixels
+  Best starting point: #30/120
+  Rotation (deg): α= -0.000, β=+10.000, γ= +0.000
+  Translation (cm): X=  +0.37, Y=  -0.13, Z=  -0.59
+  Quality: EXCELLENT
+    Convergence: 126 iterations
+
+OVERALL STATISTICS:
+Success Rate: 3/3 (100.0%)
+Average Error: 0.8171 ± 0.0892 pixels
+Starting points used: 30 to 33 (avg: 31.0)
+Detected Motion: y_rotation (+10.0°)
+Correspondences per pair: 16 to 20 (avg: 17.7)
+
+Files saved in: C:\Users\orkle\Desktop\Results\Counterclockwise_0-10-20-30_degrees_20250902_105846
+
+PROCESSING PIPELINE SUMMARY:
+1. SIFT feature detection (max 20,000 per image)
+2. Brute force matching with Lowe's ratio test (0.7)
+3. RANSAC geometric filtering (0.8px threshold)
+4. Multi-camera correspondence linking (3.0px + 2.0px epipolar)
+5. Global optimization (120 starting points)
+6. Gradient descent with adaptive learning rate
