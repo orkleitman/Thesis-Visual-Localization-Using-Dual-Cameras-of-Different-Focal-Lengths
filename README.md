@@ -1,3 +1,25 @@
+# Visual Localization with Dual-Focal Cameras
+
+[![License](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Last Commit](https://img.shields.io/github/last-commit/orkleitman/Thesis-Visual-Localization-Using-Dual-Cameras-of-Different-Focal-Lengths)
+
+**Problem:** Accurate 3-D motion from vision-only is challenging indoors.  
+**Approach:** Dual cameras (Wide + Ultra Wide), SIFT + RANSAC, 3-D triangulation, gradient-descent multi-start optimization.  
+**Results:** Sub-pixel reprojection error on controlled sequences; robust to side and rotational motion.  
+**Why it matters:** Transparent, sensor-free pipeline for robotics, AR, and indoor navigation.
+
+➡ לפרטים מלאים בעברית — גללו מטה.
+
+---
+
+## Quickstart
+
+```bash
+pip install -r requirements.txt
+python code/motion_estimation/motion_estimation.py --input frames/Back_0-5-10-15_cm --results_dir results
+
+
 # עבודת תזה – לוקליזציה חזותית באמצעות זוג מצלמות עם מוקדים שונים
 
 ריפו זה כולל את הקוד, קבצי הקלט (frames), ותוצאות הניסויים (results) עבור עבודת התזה שלי.  
@@ -113,6 +135,6 @@ python code/motion_estimation/motion_estimation.py
 
 - ניתן לשנות את תיקיית הפלט (`results`) ע"י פרמטר `results_base_dir`.  
 - קובץ `.gitignore` מוודא שקבצים מיותרים (cache, npy, npz, csv) לא נשמרים בגיט.  
-- ניתן להוסיף בהמשך קובץ `LICENSE` (למשל MIT) אם רוצים לשחרר את הקוד בקוד פתוח.  
-
+- קיימים קובצי LICENSE ו־CITATION.cff כך שאפשר להשתמש בקוד ולצטט בצורה נכונה.
+- 
 ---
