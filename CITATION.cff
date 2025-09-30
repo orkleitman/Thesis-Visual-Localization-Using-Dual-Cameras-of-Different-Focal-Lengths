@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Visual Localization using Dual Cameras with Different Focal Lengths"
+message: "If you use this repository, please cite it as below."
+type: software
+authors:
+  - family-names: Kleitman
+    given-names: Or
+    email: orkleitman@gmail.com
+repository-code: "https://github.com/orkleitman/Thesis-Visual-Localization-Using-Dual-Cameras-of-Different-Focal-Lengths"
+version: 0.1.0
+date-released: 2025-09-30
+preferred-citation:
+  type: thesis
+  title: "לוקליזציה חזותית מבוססת זוג מצלמות עם מוקדים שונים"
+  authors:
+    - family-names: קלייטמן
+      given-names: אור
+  year: 2025
