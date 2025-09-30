@@ -17,8 +17,8 @@
 
 ```bash
 pip install -r requirements.txt
-python code/motion_estimation/motion_estimation.py --input frames/Back_0-5-10-15_cm --results_dir results```
-
+python code/motion_estimation/motion_estimation.py --input frames/Back_0-5-10-15_cm --results_dir results
+```
 
 
 # עבודת תזה – לוקליזציה חזותית באמצעות זוג מצלמות עם מוקדים שונים
